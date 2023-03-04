@@ -1,0 +1,48 @@
+h1 {
+    color: red;
+}
+p {
+    color: green;
+}
+/* chọn thẻ nào mà có id = "special-heading" */
+#special-heading {
+    color: orange;
+}
+.text-blue {
+    color: blue;
+}
+
+* {
+    color: chocolate;
+}
+/* độ ưu tiên (0,0,1 */
+div {
+    color: blueviolet !important;
+}
+/* độ ưu tiên (0,1,0 */
+.text-brown {
+    color: brown ;
+}
+/* độ ưu tiên (1,0,0 */
+#my-div {
+    color: pink;
+}
+/* Nhưng thuộc tính- giá trị=> định dạng text */
+#test-text {
+font-size: medium; /* cỡ chữ */
+font-style: italic;/* kiểu chữ */
+text-decoration: line-through;/* trang trí cho chữ */
+font-family: 'Arial'; /* font chữ */
+text-transform: uppercase;/* biến đổi chữ */
+}
+/* Những thuộc tính- giá trị=>định dạng khối nội dung (box model */
+#my-box {
+    background-color: pink;
+    width: 300px;
+    height: 170px;
+    border: 10px solid green;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}

@@ -1,0 +1,60 @@
+* {
+    font-size: 30px;
+}
+#text2 {
+    color: green;
+    font-style: italic;
+}
+.text1 {
+    color: red;
+    text-transform: uppercase;
+}
+.box {
+    width: 500px;
+    
+
+}
+.table {
+    width: 500px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+.table td {
+    border: 1px solid gray;
+}
+.dữ-liệu {
+    border-bottom: 1px solid grey;
+}
+.dữ-liệu2 {
+    border-bottom: 1px solid grey;
+    background-color: gray;
+}
+.tiêu-đề {
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+.họ-tên {
+    width: 40%;
+}
+.thư {
+    background-color: violet;
+   border: 1px grey solid;
+   width: 600px;
+   padding: 20px;
+   text-align: center;
+}
+.text-input {
+    height: 30px;
+    width: 300px;
+    border: 1px grey solid;
+    border-radius: 5px;
+}
+.text-đăngky {
+    width: 120px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    font-size: medium;
+}

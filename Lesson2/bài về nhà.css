@@ -1,0 +1,78 @@
+/* bài 1 */
+.table {
+    width: 90%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+   margin-left: auto;
+   margin-right: auto;
+}
+.item {
+    color: blue;
+}
+.grey {
+    background-color: gainsboro;
+}
+.red {
+    color: red;
+}
+.detail {
+   width: 50px;
+    margin: 10px;
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* bài 2 */
+.item-container {
+    width: 50%;
+    border: 1px solid gray; border-radius: 5px;
+    padding-bottom: 5px;
+}
+.like {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+}
+.tim {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+} 
+.view {
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+}
+
+/* bài 3 */
+#div-lon {
+    margin: 50px;
+    width: 90%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+   margin-left: auto;
+   margin-right: auto;
+}
+.div-nho {
+    margin: 5px;
+}
+.div-nho button {
+    height: 20px;
+    background-color: royalblue;
+    color: white;
+    border: 1px;
+    border-radius: 2px;
+}
+.text-input {
+    width: 95%;
+    
+}
+.text-input1 {
+    margin-top: 10p;
+    width: 40%;
+}
