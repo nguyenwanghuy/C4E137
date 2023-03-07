@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.div-lon {
+    width: 600px;
+    height: 70px;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    background-color: deepskyblue;
+    border-right: 1px solid blue;
+    padding: 10px;
+    position: fixed;
+    
+}
+.div-lon .div-nho {
+  display: inline-table;
+}
+.div-nho {
+    width: 100px;
+    background-color: khaki;
+    font-size: medium;
+    border: 1px solid darkkhaki;
+   margin-left: 60px;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    
+}
+
+.div-nho:hover .user {
+    display: block;
+}
+.user {
+    position: absolute;
+    top: 60px;
+    width: 120px;
+    display: none;
+}
+.user-item {
+    height: 40px;
+    border: 1px solid grey;
+    background-color:  azure;
+    line-height: 40px;
+    text-align: center;
+}
+  /* bài2 */
+  .div-content {
+    margin-top: 100px;
+    margin-left: 20px;
+    background-color: deepskyblue;
+    font-size: 15px;
+    width: 90%;
+    border: 1px solid blue;
+    
+  }
+  .text {
+    background-color: palevioletred;
+    color: white;
+    margin: 5%;
+    height: 100px;
+  }
+  
+  .div-item {
+    background-color: khaki;
+    font-size: 20px;
+    border: 1px solid darkkhaki;
+    width: 100px;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    display: inline;
+    margin-left: 10px;
+  }
+  .div-item:hover .menu {
+    display: block;
+  }
+  .menu {
+    display: none;
+    position: absolute;
+    width: 200px;
+   bottom: 30px;
+  }
+  .menu-item {
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    border: 1px solid grey;
+    text-align: center;
+    
+  }
+  
+ 

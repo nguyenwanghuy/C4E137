@@ -1,0 +1,46 @@
+<!-- margin không ảnh hưởng đến kích thước khối -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <div class="header">
+        this is my header
+    
+    </div>
+    <!-- <div class="menu">
+        this is my menu
+        fixed on top when scrolling
+
+    </div> -->
+    <div id="box-1" class="box">Box1
+        <div id="box-2" class="box">Box2</div>
+        <div id="box-3" class="box">Box3</div>
+    </div>
+    <div class="footer">
+        this is my footer
+    </div>
+    
+<!-- tip: cứ xài boxsizing border box để chỉnh kích thước cho dễ -->
+<!-- position: relative cho phép căn chỉnh phần tử một cách tương đối so với vị trí mặc định -->
+<!-- position absolute cho phép căn chỉnh của phần tử dựa vào thẻ bao ngoài có position relative -->
+<!-- position fixed cho phép căn chỉnh phần tử neo đậu tại 1 điểm trên màn hình (bất kể có scroll) -->
+<!-- position sticky lai giữua relative(lúc bình thường) và fixed(khi scoroll) -->
+
+<!-- 
+    Phần tử trên trang web có 3 kiểu:
+block (div, p, selection, headings): chiều rộng mặc định chiếm 100% của phần tử chiếm
+inline-block (img): chiều rộng mặc định phụ thuộc vào nội dung
+ => block, inline-block => điều chỉnh được kích thước width, height
+
+ inline(b, i ,span,...): chiều rộng mặc định phụ thuộc vào nội dung, không chỉnh được kích thước
+ -->
+ 
+</body>
+</html>
