@@ -1,0 +1,65 @@
+/* .my-div {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+} */
+/* .flex-box {
+    width: 700px;
+    height: 500px;
+    display: flex;  /* thay đổi bố cục của nội dung */
+    /* border: 1px solid black;
+    flex-direction: row; */
+    /* justify-content: space-between; /* (trục chính) */
+    /* align-items: stretch;(trục phụ) */ 
+    /* flex-wrap: wrap-reverse; */
+
+/*      
+}
+.flexbox-item {
+    width: 80px;
+    height: 80px;
+    border: 1px solid green;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+.flexbox-item.my-item {
+    width: 200px;
+    height: 200px;
+} */
+
+.footer {
+    height: 200px;
+    background-color: darkblue;
+    color: #fff;
+    padding: 10px;
+}
+.footer-content-1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    padding: 10px;
+    
+    align-items: stretch;
+    height: 60px;
+
+
+}
+.footer-btn-group {
+    background-color: green;
+    width: 70%;
+}
+.footer-contact {
+    background-color: chartreuse;
+    width: 27%;
+}
+.footer-content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-about {
+    width: 80%;
+    text-align: center;
+}
