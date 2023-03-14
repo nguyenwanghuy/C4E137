@@ -89,20 +89,17 @@ body {
     grid-row-gap: 20px;
 }
 
-.search-box .search-text {
-    border: 1px solid gray;
-    outline: none;
-    border-radius: 5px;
-    padding: 10px 10px;
-    margin-top: 5px;
-}
 .search-box .search-btn {
     background-color: #fff;
-    cursor: pointer;
     border: none;
     padding: 15px;
 }
+.search-box {
+    margin-top: 12px;
+   
+}
 .div-menu {
+    font-size: 15px;
     display: flex;
     justify-content: space-around
 }
@@ -112,9 +109,40 @@ p {
 .div-menu-item {
     margin-top: 10px;
 }
-@media screen and (max-width: 1024px) {
-  .div-container {
-    width: 63%;
-  }
- 
+@media screen and (max-width: 720px) {
+  
+    .card-language {
+        font-size: 14px;
+        margin-right: 20px;
+      }
+      
+    .card-list {
+        margin-left: 35px;
+        width: 500px;
+    
+    }
+    .card-call {
+        margin-top: 95px;
+    }
+   .card-call-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   }
+    
+    .card-contact-item {
+        font-size: small;
+    }
+   .fa-comment {
+    font-size: small;
+   }
+    .fa-microphone {
+    font-size: small;
+    }
+    .fa-video {
+    font-size: small;
+    }
+    
 }
+
