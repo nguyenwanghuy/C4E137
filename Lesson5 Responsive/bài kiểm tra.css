@@ -109,6 +109,26 @@ p {
 .div-menu-item {
     margin-top: 10px;
 }
+
+.center1 {
+background-color: #FFD38A;
+}
+.center2 {
+background-color: #D6E7FF;
+}
+.center3 {
+background-color:#FFC5A0 ;
+}
+.center4 {
+background-color: #ABE1FF;
+}
+.center5 {
+background-color: #ADFFE6;
+}
+.center6 {
+background-color: #A5FF96;
+}
+
 @media screen and (max-width: 720px) {
   
     .card-language {
