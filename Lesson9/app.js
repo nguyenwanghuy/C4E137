@@ -719,30 +719,52 @@ let users = [
     //dùng phương thức find của mảng
 
 // Đếm số lượng user có age > 50.
-let tuoi = users.filter(function (ages) {
-    if (ages.age>50) {
-        console.log(ages)
-    }
-    return[ages];
-})
 
+
+// let tuoi = users.filter(function (ages) {
+//     if (ages.age>50) {
+//         console.log(ages)
+//     }
+//     return[ages];
+// })
+let count = 0;
+for (let ages of users) {
+    if (ages.age >50) {
+        count+=1;
+    }
+} 
+console.log(count)
 // Đếm số lượng user đã kết hôn và chưa kết hôn
 
-let daKetHon = users.filter(function (marri) {
-    if (marri.is_married == true){
-    console.log(marri);
-}
-return [marri];
-});
+// let daKetHon = users.filter(function (marri) {
+//     if (marri.is_married == true){
+//     console.log(marri);
+// }
+// return [marri];
+// });
 
-
-let chuaKetHon = users.filter(function (unmari) {
-    if (unmari.is_married == false) {
-        console.log(unmari)
+let daKetHon = 0; 
+for (let marri of users) {
+    if (marri.is_married == true) {
+        daKetHon +=1;
     }
-return[unmari]
-})
+}
+console.log(daKetHon)
 
+// let chuaKetHon = users.filter(function (unmari) {
+//     if (unmari.is_married == false) {
+//         console.log(unmari)
+//     }
+// return[unmari]
+// })
+
+let chuaKetHon = 0; 
+for (let unmarri of users) {
+    if (unmarri.is_married == false) {
+        chuaKetHon +=1;
+    }
+}
+console.log(chuaKetHon)
 
 
 
