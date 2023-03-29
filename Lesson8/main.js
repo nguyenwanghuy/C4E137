@@ -278,3 +278,9 @@ console.log(nhoNhat)
  let giaTriText =saBiChuong.find(items => items == 'text');
  console.log(giaTriText)
 
+// Tạo mảng mới newS gồm các phần tử có giá trị là 3 ký tự đầu tiên của từng phần tử trong s.
+// NewS = []
+// for {
+//     str = s[i] . slice (0,3)
+//     NewS.push(str)
+// }

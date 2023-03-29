@@ -245,18 +245,17 @@
 //bài 10 Nhập vào 2 số m, n (m > 0, n > 0). Tìm ước chung lớn nhất của m, n.
 
 //note
-// let m =Number(prompt("Nhập số m"));
-// let n =Number(prompt("Nhập số n"));
-// if(
-//     m > 0
-//     && n > 0
-// ) {
-//     for(let x=1; x<=n && x<=m; x++)
+// let m =prompt("Nhập số m");
+// let n =prompt("Nhập số n");
+// let text ;
+ 
+//     for(let x=1; x<=n || x<=m; x++){
 //         if(n % x ==0 && m % x==0){
-//           console.log(x)
+//             text =x;
 //         }
         
-// }
+//     }
+//     console.log('Ước chung lớn nhất ' + text)
 
 //bài 11  Nhập vào 2 số m, n (m > 0, n > 0). Tìm bội chung nhỏ nhất của m, n.
 
