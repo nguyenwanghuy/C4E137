@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Khi click vào nút “Xóa” → Xóa hàng tương ứng. -->
+<table id="table" border="1">
+    <tr id="task">
+        <td>ID</td>
+        <td>Name</td>
+        <td>Adress</td>
+        <td></td>
+        
+    </tr>
+    <tr id="task1">
+        <td>1</td>
+        <td>Name1</td>
+        <td>Adress 1</td>
+        <td> <button id="create-task1">Xoá</button></td>
+        
+    </tr>
+    <tr id="task2">
+        <td>2</td>
+        <td>Name2</td>
+        <td>Adress 2</td>
+        <td><button id="create-task2">Xoá</button></td>
+        
+    </tr>
+    <tr id="task3">
+        <td>3</td>
+        <td>Name3</td>
+        <td>Adress 3</td>
+        <td><button id="create-task3">Xoá</button></td>
+        
+    </tr>
+    <tr id="task4">
+        <td>4</td>
+        <td>Name4</td>
+        <td>Adress 4</td>
+        <td><button id="create-task4">Xoá</button></td>
+        
+    </tr>
+    <tr id="task5">
+        <td>5</td>
+        <td>Name5</td>
+        <td>Adress 5</td>
+        <td><button id="create-task5">Xoá</button></td>
+        
+    </tr>
+</table>
+
+<!-- bài 3 -->
+
+<div id="form-container">
+    <form>
+        <h2>Đăng ký tài khoản</h2>
+        <div id="form-control">
+            <b>  Họ và tên <input type="text" id="name" placeholder="Họ và tên"></b>
+        </div>
+        <div id="form-control">
+            <b>Giới tính <input type="radio" name="sex" > <i>Male</i>
+                <input type="radio" name="sex"> <i>Female</i>
+        </b>
+        </div>
+        <div id="form-control">
+            <b>Tuổi
+                <input type="number" id="age" placeholder="tuổi">
+            </b>
+    
+        </div>
+        <div id="form-control">
+            Email</b> <input type="email" id="my-email" placeholder="email">
+        </div>
+        <div id="form-control">
+            <b>Mật khẩu <input type="password" id="pass" placeholder="password"></b>
+        </div>
+        <button onclick="send()">Đăng ký</button>
+    
+    </form>
+</div>
+
+
+     
+    <script src="btvn.js"></script>
+</body>
+</html>
