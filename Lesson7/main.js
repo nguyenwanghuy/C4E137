@@ -91,6 +91,7 @@
 //     console.log(index)
 //     index++;
 
+
 // }
 
 //bài  Hãy nhập vào 1 chuỗi s và 1 số l. Hãy thêm vào cuối chuỗi s ký tự ‘a’ cho đến khi độ dài chuỗi s >= l.

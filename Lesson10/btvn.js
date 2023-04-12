@@ -33,7 +33,10 @@ $btn4.addEventListener('click', function() {
     $taskk4.remove();
     alert('Vừa xoá task4')
 })
-B
+$btn5.addEventListener('click', function() {
+    $taskk5.remove();
+    alert('Vừa xoá task5')
+})
 
 
 

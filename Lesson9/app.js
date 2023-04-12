@@ -158,7 +158,7 @@ function timNghiemPtBac2(a,b,c) {
         return [x1, x2];
     } else {
         return [];
-    }
+    }  
 }
 let nghiem = timNghiemPtBac2(1,-3,-4);
 console.log(nghiem);
@@ -767,5 +767,101 @@ for (let unmarri of users) {
 console.log(chuaKetHon)
 
 
+let n= 0;
+users.find(function(jobb) {
+    for (let jobb of users ) {
+        if (jobb.job ==n)
+        n+=1;
+
+    };
+})
+console.log(n)
+// Nhập vào 1 số n. Hãy tìm 1 user có id bằng n
+// let n = Number(prompt('Nhap so n'));
+// users.find (function(names) {
+//     if (n == names.id) {
+//         console.log (names.first_name +  " " + names.last_name)
+//     }
+// })
 
 
+//chữa btvn
+// Nhập vào 1 số n. Hãy tìm 1 user có id bằng n
+// const n = 10;
+// //for (let user of users) {
+// //    if (user.id == n) {
+// //        console.log(user);   
+// //    }   
+// //}
+// // Nhập vào 1 chuỗi keyword. Hãy lấy ra email của các user có tên (first_name + last_name) chứa keyword.
+// const keyword = "Huc";
+// //for (let user of users) {
+// //    const fullName = user.first_name + user.last_name;
+// //    if (fullName.includes(keyword)) {
+// //        console.log(user.email);
+// //    }
+// //}
+// // Đếm số lượng user có age > 50.
+// let count = 0;
+// //for (let user of users) {
+// //    if (user.age > 50) {
+// //        count++;
+// //    }
+// //}
+// //console.log(count)
+// // Đếm số lượng user đã kết hôn và chưa kết hôn.
+// let married = 0;
+// let notMarried = 0;
+// // for (let user of users) {
+// //     if (user.is_married) {
+// //         married++;
+// //     } else {
+// //         notMarried++;
+// //     }
+// // }
+// // console.log(notMarried);
+// // console.log(married);
+// // Đếm số lượng user theo từng ngành nghề tương ứng.
+// // const jobs = [];
+// // for (let user of users) {
+// //     if (jobs.includes(user.job)) {
+// //         continue;
+// //     } else {
+// //         //Nếu chưa có nghề nghiệp đó thì push vào mảng
+// //         jobs.push(user.job);
+// //     }
+// // }
+// //Lọc được mảng gồm các job không trùng nhau
+// // const countJob = (job) => {
+// //     let count = 0;
+// //     for (let user of users) {
+// //          if (user.job == job) {
+// //             count++;
+// //         }
+// //     }
+// //     return count;
+// // }
+
+// // const result = jobs.map(job => {
+// //     return {
+// //         [job]: countJob(job)
+// //     }
+// // })
+// // console.log(result);
+
+// //Casch 2
+// const result = {};
+
+// for (let user of users) {
+//     // Phương thức hasOwnProperty giúp kiếm tra trong object đã tồn tại key đó hay chưa
+//     if (result.hasOwnProperty(user.job)) {
+//         result[user.job] = result[user.job] + 1;
+//     } else {
+//         result[user.job] = 1;
+//         //Đây là một cách truy vấn khác trong object
+//         //C1: object.key
+//         //C2: object.[key]
+//     }
+// }
+
+// console.log(result);
